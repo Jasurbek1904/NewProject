@@ -1,0 +1,1251 @@
+* {
+    margin: 0;
+    cursor: pointer;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    text-align: start;
+    cursor: pointer;
+    position: sticky;
+}
+
+.navbrand span {
+    margin: 10px;
+}
+
+.mynavbrand a {
+    color: black;
+    text-decoration: none;
+}
+
+@media only screen and (min-width: 992px) {
+    .mynavbrand {
+        width: 45% !important;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .mynavbrand {
+        width: 58% !important;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .infIcon {
+        width: 20%;
+    }
+
+    .infDrop {
+        width: 1.8%;
+    }
+
+    .infText {
+        font-size: 20px !important;
+    }
+
+    .navbarToggle {
+        width: 35px;
+        height: 30px;
+    }
+
+    .navbar-toggler-icon {
+        position: relative;
+        bottom: 4px;
+        right: 6px;
+        width: 22px;
+        height: 20px;
+    }
+
+    .applyBtn {
+        padding: 5px 20px !important;
+        font-size: 13px;
+        position: relative;
+        left: 10px;
+    }
+}
+
+.navbrand .infText {
+    font-family: 'Regio Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 34px;
+}
+
+.collapseItem a {
+    margin: 10px;
+    color: black !important;
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.applyBtn {
+    padding: 10px 35px;
+    color: white;
+    background: #E79215;
+    border: none;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+/* CARUSEL CARUSEL CARUSEL CARUSEL CARUSEL */
+
+
+.myCarusel .col-md-8 {
+    margin-top: 50px;
+}
+
+.caruselUl ul {
+    display: inline-flex;
+    position: relative;
+    top: 80px;
+    left: -220px;
+}
+
+.caruselUl button {
+    position: relative;
+    left: -50px;
+}
+
+.carousel-inner div {
+    text-align: start;
+    font-family: "Gilroy";
+    font-weight: 600;
+    line-height: 92px;
+    font-size: 50px;
+    position: relative;
+    left: 30px;
+}
+
+.batafsil {
+    background-color: #fff;
+    border: 2px solid #E79215;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+
+@media only screen and (max-width: 1400px) {
+    .caruselUl ul {
+        position: relative;
+        left: -160px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .myCarusel .col-md-8 {
+        position: relative;
+        top: -50px;
+    }
+
+    .myCarusel .col-md-8 .carousel-item {
+        font-size: 40px;
+    }
+
+    .caruselUl ul {
+        position: relative;
+        left: -120px;
+        top: 70px;
+    }
+
+    .batafsil {
+        padding: 5px 20px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .myCarusel .col-md-8 .carousel-item {
+        font-size: 28px;
+    }
+
+    .caruselUl ul {
+        position: relative;
+        left: -45px;
+    }
+
+    .caruselImg {
+        width: 130% !important;
+        height: 100% !important;
+    }
+
+    .batafsil {
+        padding: 5px 15px;
+        font-size: 12px;
+    }
+
+    .caruselUl li {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .myCarusel .col-md-8 .carousel-item {
+        font-size: 30px;
+        text-align: center !important;
+        justify-content: center;
+    }
+
+    .caruselUl {
+        position: relative;
+        left: 90px;
+        top: 170px;
+    }
+
+    .caruselImg {
+        width: 60% !important;
+        margin: 0 auto !important;
+        justify-content: center;
+        justify-self: center;
+    }
+
+    .myCarusel .col-md-4 .caruselImg {
+        position: relative;
+        left: 120px !important;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    .myCarusel .col-md-8 .carousel-item {
+        font-size: 20px;
+        text-align: center !important;
+        justify-content: center;
+    }
+
+    .myCarusel {
+        position: relative;
+        left: -20px;
+    }
+
+    .caruselUl {
+        position: relative;
+        left: 90px;
+    }
+
+    .batafsil {
+        padding: 3px 15px;
+        font-size: 10px;
+    }
+
+    .caruselUl li {
+        position: relative;
+        top: -8px;
+        font-size: 10px;
+    }
+
+    .myCarusel .col-md-4 .caruselImg {
+        position: relative;
+        left: 90px !important;
+    }
+}
+
+
+/* yonalishlar yonalishlar yonalishlar */
+.yonalishlar {
+    margin-top: 150px;
+}
+
+.yonalishlar p:first-child,
+.paragraf {
+    font-weight: bold;
+    font-size: 24px;
+    margin: 8px;
+}
+
+.yonalishlar .card {
+    margin-top: 30px;
+    padding: 50px;
+    height: 256px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.yonalishlar .card:hover {
+    color: white !important;
+    background-color: #E79215;
+}
+
+.yonalishlar .card:hover a {
+    font-size: 20px;
+    text-decoration: underline;
+    color: white;
+}
+
+.yonalishlar .card h3 {
+    font-size: 44px;
+}
+
+.yonalishlar .card p {
+    opacity: 0.8;
+    font-size: 18px;
+    margin: 5px;
+}
+
+.yonalishlar .card a {
+    margin-top: 60px !important;
+    text-decoration: none;
+}
+
+@media only screen and (max-width:1200px) {
+    .yonalishlar .card {
+        height: 70%;
+    }
+
+    .yonalishlar .card h3 {
+        font-size: 30px;
+    }
+
+    .yonalishlar .card p {
+        font-size: 15px;
+        margin: 2px;
+    }
+
+    .yonalishlar .card a {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width:992px) {
+    .yonalishlar .card {
+        height: 60% !important;
+    }
+
+    .yonalishlar .card h3 {
+        font-size: 25px;
+        margin: -25px;
+    }
+
+    .yonalishlar .card p {
+        font-size: 12px;
+        margin-top: 35px;
+        margin-left: -25px;
+    }
+
+    .yonalishlar .card a {
+        font-size: 8px;
+        margin-top: 30px !important;
+        margin-left: -25px !important;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .yonalishlar .card {
+        margin-bottom: 0;
+        height: 80% !important;
+    }
+
+    .yonalishlar .card h3 {
+        font-size: 35px;
+    }
+
+    .yonalishlar .card p {
+        font-size: 15px;
+    }
+
+    .yonalishlar .card a {
+        font-size: 10px;
+    }
+}
+
+/* paragraf */
+.paragraf {
+    position: relative;
+    top: 80px;
+}
+
+.whyDiv .col-md-3 {
+    margin-top: 120px !important;
+}
+
+.whyDiv .col-md-3 a {
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.whyDiv .col-md-3 p {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+}
+
+.starIcon {
+    margin: 10px;
+}
+
+.teacherImg {
+    width: 80%;
+}
+
+.btf2 {
+    position: relative;
+    left: 20px;
+    font-size: 18px;
+    padding: 10px 30px;
+}
+
+.trp {
+    position: relative;
+    left: 10px;
+}
+
+@media only screen and (max-width:1200px) {
+    .whyDiv .col-md-3 {
+        margin-top: 80px !important;
+    }
+
+    .whyDiv p {
+        font-size: 17px !important;
+    }
+
+    .btf2 {
+        font-size: 15px;
+        padding: 6px 25px;
+    }
+}
+
+@media only screen and (max-width:992px) {
+    .whyDiv p {
+        margin-bottom: 30px !important;
+        font-size: 11px !important;
+        font-weight: 500;
+    }
+
+    .icons {
+        width: 20px;
+        height: 20px;
+    }
+
+    .teacherImg {
+        margin-top: 50px;
+        width: 90%;
+    }
+
+    .starIcon {
+        margin-top: -2px !important;
+    }
+
+    .like {
+        margin-top: 0px !important;
+    }
+
+    .btf2 {
+        position: relative;
+        left: 15px;
+        padding: 3px 15px;
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .whyDiv p {
+        font-size: 20px !important;
+        font-weight: 500;
+    }
+
+    .icons {
+        width: 30px;
+        height: 30px;
+    }
+
+    .colmd3 {
+        position: relative;
+        top: -80px !important;
+    }
+
+    .teacherImg {
+        width: 80% !important;
+        position: relative;
+        top: -50px;
+        right: 50px;
+    }
+
+    .btf2 {
+        padding: 5px 25px;
+        font-size: 15px;
+    }
+}
+
+/* Bizning galereya  */
+.galereyaRow {
+    margin-top: 120px;
+}
+
+.img1 {
+    width: 100%;
+    height: 60%;
+    display: block;
+}
+
+.images {
+    width: 100%;
+    height: 60%;
+}
+
+.images2 {
+    position: relative;
+    top: -170px;
+    width: 100%;
+    height: 60%;
+}
+
+.overlay {
+    position: relative;
+    bottom: 100px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 43.17%, #000000 103.74%);
+    width: 100%;
+    transition: .5s ease;
+    opacity: 0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.overlay2 {
+    position: relative;
+    bottom: 130px;
+}
+
+.overlay3 {
+    position: relative;
+    bottom: 300px;
+}
+
+.img1Div:hover .overlay {
+    opacity: 1;
+}
+
+
+@media only screen and (max-width:1200px) {
+    .images2 {
+        position: relative;
+        top: -140px;
+    }
+
+    .overlay2 {
+        position: relative;
+        bottom: 150px !important;
+        font-size: 18px;
+    }
+
+    .overlay3 {
+        position: relative;
+        bottom: 285px !important;
+        font-size: 18px;
+        padding: 18px !important;
+    }
+
+}
+
+@media only screen and (max-width:1400px) {
+    .overlay2 {
+        position: relative;
+        bottom: 130px;
+    }
+
+    .overlay3 {
+        position: relative;
+        bottom: 300px;
+    }
+}
+
+@media only screen and (max-width:992.9px) {
+
+    .img1,
+    .images {
+        height: 50%;
+    }
+
+    .images2 {
+        position: relative;
+        top: -140px;
+        height: 50% !important;
+    }
+
+    .overlay {
+        position: relative;
+        bottom: 85px;
+        font-size: 15px;
+    }
+
+    .overlay2 {
+        position: relative;
+        bottom: 110px;
+        font-size: 12px;
+    }
+
+
+    .overlay3 {
+        position: relative;
+        bottom: 250px !important;
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width:767.5px) {
+    .galereyaRow {
+        margin-top: 200px;
+    }
+
+    .img1 {
+        height: 100%;
+        position: relative;
+        bottom: 80px;
+        width: 100%;
+    }
+
+    .images {
+        position: relative;
+        top: -10px;
+        width: 100%;
+    }
+
+    .images2 {
+        position: relative;
+        top: -9px;
+        width: 100%;
+    }
+
+    .imgs2 {
+        position: relative;
+        top: -130px;
+    }
+
+    .overlay {
+        position: relative;
+        bottom: 160px;
+    }
+
+    .overlay2 {
+        position: relative;
+        bottom: 100px !important;
+    }
+
+    .over3 {
+        position: relative;
+        top: -100px;
+    }
+
+    .overlay3 {
+        position: relative;
+        bottom: 220px !important;
+        padding: 18px;
+    }
+}
+
+@media only screen and (max-width:576.5px) {
+    .images2 {
+        position: relative;
+        top: -220px;
+    }
+
+    .imgs2 {
+        position: relative;
+        top: -420px;
+    }
+
+    .img5 {
+        position: relative;
+        top: -620px;
+    }
+
+    .overlay2 {
+        position: relative;
+        bottom: 80px !important;
+        padding: 18px;
+    }
+
+    .over3 {
+        position: relative;
+        top: -290px !important;
+        padding: 18px;
+    }
+
+    .overlay3 {
+        position: relative;
+        top: -490px;
+    }
+
+    .over5 {
+        position: relative;
+        top: -690px !important;
+    }
+}
+
+@media only screen and (max-width:440px) {
+    .imageAll {
+        margin-bottom: 80px;
+    }
+
+    .overlay {
+        position: relative;
+        top: -180px;
+        padding: 18px;
+    }
+
+    .overlay2 {
+        position: relative;
+        top: -160px;
+    }
+
+    .over3 {
+        position: relative;
+        top: -370px !important;
+    }
+
+    .over4 {
+        position: relative;
+        top: -570px;
+    }
+
+    .over5 {
+        position: relative;
+        top: -770px !important;
+    }
+}
+
+/* footer footer */
+
+.footer {
+    background-color: rgb(254, 248, 241);
+    cursor: pointer;
+    /* background-image: url(./Images/footerImg.png);
+    background-repeat: no-repeat;
+    width: auto; */
+}
+
+@media screen and (max-width:500px) {
+    .footer {
+        position: relative;
+        top: 900px;
+    }
+}
+
+.footer .container:first-child {
+    padding: 80px;
+}
+
+.footer .container:last-child {
+    padding: 30px;
+}
+
+.fanlar a {
+    text-decoration: none;
+    color: black;
+    opacity: 0.9;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    position: relative;
+    top: 20px;
+}
+
+.footer .fourIcons {
+    margin-top: 20px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: black;
+}
+
+
+@media only screen and (max-width:992.5px) {
+    .footer .container:first-child .col-md-8 {
+        width: 100%;
+    }
+
+    .iconSide {
+        text-align: start;
+        justify-content: flex-start;
+        margin-top: 50px;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    /* .footer {
+        margin-top: -200px;
+    } */
+
+    .footer .container:first-child .col-md-8 .col-md-4 {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .call {
+        position: relative;
+        right: 0px !important;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    .footer {
+        margin-top: -650px;
+    }
+
+    .footer .container:last-child {
+        font-size: 10px;
+        text-align: start !important;
+        padding: 50px;
+    }
+
+    .right {
+        position: relative;
+        top: -50px !important;
+        left: 30px !important;
+    }
+
+    .call {
+        position: relative;
+        top: -30px !important;
+        left: 30px !important;
+    }
+}
+
+
+/* dasturlash dasturlash */
+.dasturlash .border {
+    position: relative;
+    left: 20px;
+    width: 98%;
+    height: 343px;
+    margin-top: 120px;
+    margin-bottom: 50px;
+}
+
+.foundationImg {
+    position: relative;
+    top: -40px;
+    width: 60%;
+}
+
+.htmlImg {
+    position: relative;
+    right: 70px;
+    top: -25px;
+    width: 65%;
+}
+
+.computerImg {
+    position: relative;
+    top: 12px;
+    left: -150px;
+    width: 80%;
+}
+
+.reactImg {
+    position: relative;
+    top: -24.5px;
+    right: -40px;
+    width: 80%;
+}
+
+.dasturlashText {
+    width: 35%;
+    margin: 50px auto;
+}
+
+.dasturlashText h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+}
+
+.dasturlashText p {
+    opacity: 0.8;
+    margin-top: 20px;
+    line-height: 34px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+}
+
+.batafsilBtn {
+    border: 1px solid #E79215;
+    border-radius: 4px;
+    padding: 8px 40px;
+    background-color: #fff;
+    font-style: normal;
+}
+
+.qabul {
+    background: #E79215;
+    border-radius: 4px;
+    padding: 8px 40px;
+    border: none;
+    color: white;
+    font-style: normal;
+}
+
+.contactContainer {
+    width: 97%;
+    margin-bottom: 50px;
+}
+
+.borderContactImg {
+    border: 2px solid #3F3D56;
+    padding: 10px;
+}
+
+.contactContainer input {
+    width: 50%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding: 10px;
+    margin-bottom: 50px !important;
+}
+
+.contactContainer .col-md-8 {
+    position: relative;
+    top: 20px;
+}
+
+.sendBtn {
+    background: #3F3D56;
+    padding: 8px 30px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+}
+
+@media only screen and (max-width:1400px) {
+    .dasturlash .border {
+        height: 289px;
+    }
+
+    .dasturlashText {
+        width: 40%;
+        margin: 0px;
+        position: relative;
+        top: 50px;
+        right: -30px;
+    }
+
+    .htmlImg {
+        position: relative;
+        right: -40px;
+        top: -24px;
+        width: 64%;
+    }
+
+    .computerImg {
+        position: relative;
+        top: 5px;
+    }
+
+    .reactImg {
+        position: relative;
+        right: -150px;
+        top: -27px;
+    }
+
+    .contactImg {
+        height: 100%;
+    }
+
+    .contactContainer input {
+        font-size: 15px;
+        margin-top: -20px;
+    }
+
+    .sendBtn {
+        margin-top: -10px;
+    }
+}
+
+@media only screen and (max-width:1200px) {
+    .dasturlash .border {
+        height: 280px;
+    }
+
+    .foundationImg {
+        width: 70%;
+    }
+
+    .htmlImg {
+        position: relative;
+        top: -45px;
+        width: 80%;
+    }
+
+    .computerImg {
+        position: relative;
+        top: 12px;
+        left: -75px;
+        width: 90%;
+    }
+
+    .reactImg {
+        position: relative;
+        top: -32px;
+        width: 95%;
+        right: -120px;
+    }
+
+    .dasturlashText {
+        width: 40%;
+        margin: 0px;
+        position: relative;
+        top: 50px;
+        right: -30px;
+    }
+
+    .dasturlashText h1 {
+        font-size: 30px;
+    }
+
+    .dasturlashText p {
+        font-size: 12px;
+    }
+
+    .batafsilBtn,
+    .qabul {
+        padding: 6px 30px;
+        font-size: 12px;
+    }
+
+    .contactContainer input {
+        font-size: 12px;
+        margin-top: -25px;
+    }
+
+    .sendBtn {
+        margin-top: -18px !important;
+        font-size: 10px;
+        padding: 8px 20px;
+    }
+}
+
+@media only screen and (max-width:992px) {
+    .dasturlash .border {
+        height: 263px;
+    }
+
+    .foundationImg {
+        width: 90%;
+    }
+
+    .computerImg {
+        position: relative;
+        left: -50px;
+        top: 43px;
+        width: 100% !important;
+    }
+
+    .reactImg {
+        width: 100%;
+        top: 38px;
+        right: -90px;
+    }
+
+    .frontendBorder {
+        height: 280px !important;
+    }
+
+    .frontendText {
+        position: relative;
+        top: 30px;
+        left: 50px;
+        width: 40% !important;
+    }
+
+    .htmlImg {
+        position: relative;
+        right: -40px;
+        top: -20px;
+        width: 100%;
+    }
+
+    .dasturlashText {
+        position: relative;
+        right: 30px;
+        width: 50%;
+    }
+
+    .dasturlashText h1 {
+        font-size: 25px;
+    }
+
+    .borderContactImg,
+    .contactContainer .col-md-8 {
+        width: 50%;
+    }
+
+    .contactContainer .col-md-8 input {
+        width: 80%;
+    }
+
+    .sendBtn {
+        position: relative;
+        top: -20px;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .dasturlash .border {
+        width: 92%;
+        height: 100%;
+    }
+
+    .foundationImg {
+        width: 90%;
+    }
+
+    .computerImg {
+        position: relative;
+        top: -30px;
+        left: -100px;
+        width: 80% !important;
+    }
+
+    .reactImg {
+        position: relative;
+        right: -30px;
+        top: 94px;
+        width: 80% !important;
+    }
+
+    .frontendBorder {
+        height: 600px !important;
+    }
+
+    .frontendText {
+        position: relative;
+        top: 20px !important;
+        width: 80% !important;
+    }
+
+    .htmlImg {
+        position: relative;
+        top: 72px;
+        right: 30px;
+        width: 70% !important;
+    }
+
+    .dasturlashText {
+        position: relative;
+        top: -10px;
+        right: -90px;
+        width: 70%;
+    }
+
+    .dasturlashText h1 {
+        font-size: 30px;
+    }
+
+    .dasturlashText p {
+        font-size: 15px;
+    }
+
+    .batafsilBtn,
+    .qabul {
+        padding: 8px 35px;
+    }
+
+    .borderContactImg {
+        margin: 0 auto;
+        width: 55%;
+    }
+
+    .CONTACTDiv {
+        text-align: center;
+    }
+
+    .contactContainer .col-md-8 {
+        margin: 0 auto;
+    }
+
+    .contactContainer .col-md-8 input {
+        width: 100%;
+    }
+
+    .sendBtn {
+        position: relative;
+        top: -20px;
+    }
+}
+
+@media only screen and (max-width:577px) {
+    .computerImg {
+        position: relative;
+        left: -80px;
+        width: 65% !important;
+    }
+
+    .reactImg {
+        position: relative;
+        top: 110px;
+        width: 75% !important;
+    }
+}
+
+
+@media only screen and (max-width:545px) {
+    .htmlImg {
+        position: relative;
+        top: 70px !important;
+    }
+
+    .reactImg {
+        position: relative;
+        top: 112px;
+        right: -20px;
+    }
+
+    .cont {
+        position: relative;
+        margin: 0;
+    }
+
+}
+
+
+@media only screen and (max-width:462px) {
+    .htmlImg {
+        position: relative;
+        top: 70px !important;
+        width: 80% !important;
+    }
+
+    .reactImg {
+        position: relative;
+        top: 150px;
+        right: -20px;
+        width: 75% !important;
+    }
+}
+
+@media only screen and (max-width:400px) {
+    .reactImg {
+        position: relative;
+        top: 140px;
+        right: -10px;
+    }
+}
+
+@media only screen and (max-width:350px) {
+    .dasturlashText {
+        position: relative;
+        right: -60px;
+    }
+
+    .reactImg {
+        position: relative;
+        top: 140px;
+    }
+}
