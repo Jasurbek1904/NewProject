@@ -20,9 +20,39 @@
     text-decoration: none;
 }
 
+.leftbgc {
+    position: absolute;
+    top: -20px;
+    width: 18%;
+    height: 60%;
+}
+
+.rightTopbgc {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 65%;
+    z-index: -500;
+}
+
+.rightbgc {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -200;
+    height: 100%;
+    width: 50%;
+
+}
+
 @media only screen and (min-width: 992px) {
     .mynavbrand {
         width: 45% !important;
+    }
+
+    .rightTopbgc {
+        position: absolute;
+        top: -55px;
     }
 }
 
@@ -30,9 +60,64 @@
     .mynavbrand {
         width: 58% !important;
     }
+
+    .rightTopbgc {
+        width: 80%;
+    }
+
+}
+
+@media only screen and (max-width: 991px) {
+    .rightTopbgc {
+        position: absolute;
+        top: -55px !important;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .leftbgc {
+        position: absolute;
+        top: -30px;
+    }
+
+    .rightTopbgc {
+        position: absolute;
+        top: -85px !important;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .leftbgc {
+        display: none;
+    }
+
+    .rightTopbgc {
+        position: absolute;
+        top: -100px !important;
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 580px) {
+    .rightbgc {
+        position: absolute;
+        top: -50px;
+        width: 65%;
+    }
 }
 
 @media only screen and (max-width: 400px) {
+    .rightTopbgc {
+        position: absolute;
+        top: -100px !important;
+    }
+
+    .rightbgc {
+        position: absolute;
+        top: -70px;
+        width: 70%;
+    }
+
     .infIcon {
         width: 20%;
     }
@@ -131,6 +216,16 @@
     border: 2px solid #E79215;
     padding: 10px 30px;
     border-radius: 5px;
+}
+
+.batafsilBtn:hover {
+    background: #E79215;
+    color: white;
+}
+
+.batafsil:hover {
+    background: #E79215;
+    color: white;
 }
 
 @media only screen and (max-width: 1400px) {
@@ -249,7 +344,7 @@
 
 /* yonalishlar yonalishlar yonalishlar */
 .yonalishlar {
-    margin-top: 150px;
+    margin-top: 200px;
 }
 
 .yonalishlar p:first-child,
@@ -273,7 +368,6 @@
 }
 
 .yonalishlar .card:hover a {
-    font-size: 20px;
     text-decoration: underline;
     color: white;
 }
