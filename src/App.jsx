@@ -9,6 +9,10 @@ import "./style.css"
 import Error from "./components/Error";
 import MyFooter from "./components/MyFooter";
 import Dasturlash from "./components/Dasturlash";
+import English from "./components/English";
+import Foundation from "./components/Foundation";
+import About from "./components/About";
+import Contact from "./components/Contact";
 
 
 function App() {
@@ -19,6 +23,10 @@ function App() {
             <Routes>
                 <Route path="/" element={<Yonalishlar />} />
                 <Route path="/dasturlash" element={<Dasturlash />} />
+                <Route path="/english" element={<English />} />
+                <Route path="/foundation" element={<Foundation />} />
+                <Route path="/about" element={<About />} />
+                <Route path="/contact" element={<Contact />} />
                 <Route path="/error" element={<Error />} />
             </Routes>
             <MyFooter />

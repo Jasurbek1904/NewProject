@@ -15,6 +15,17 @@
     margin: 10px;
 }
 
+.newNavbar {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.07);
+    position: relative;
+    top: -50px !important;
+}
+
+.navbar a {
+    text-decoration: none;
+}
+
 .mynavbrand a {
     color: black;
     text-decoration: none;
@@ -43,6 +54,32 @@
     height: 100%;
     width: 50%;
 
+}
+
+.navbrand .infText {
+    font-family: 'Regio Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 34px;
+}
+
+.collapseItem a {
+    margin: 10px;
+    color: black !important;
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.applyBtn {
+    padding: 10px 35px;
+    color: white !important;
+    background: #E79215;
+    border: none;
+    border-radius: 5px;
 }
 
 @media only screen and (min-width: 992px) {
@@ -151,31 +188,6 @@
     }
 }
 
-.navbrand .infText {
-    font-family: 'Regio Mono';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 34px;
-}
-
-.collapseItem a {
-    margin: 10px;
-    color: black !important;
-    font-family: "Gilroy";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 24px;
-}
-
-.applyBtn {
-    padding: 10px 35px;
-    color: white;
-    background: #E79215;
-    border: none;
-    border-radius: 5px;
-}
 
 
 
@@ -216,6 +228,11 @@
     border: 2px solid #E79215;
     padding: 10px 30px;
     border-radius: 5px;
+}
+
+.batafsil a {
+    color: #000000;
+    text-decoration: none;
 }
 
 .batafsilBtn:hover {
@@ -1341,5 +1358,1103 @@
     .reactImg {
         position: relative;
         top: 140px;
+    }
+}
+
+
+/* Ingliz tili */
+.EnglishCont {
+    margin: 25px;
+    width: 97% !important;
+}
+
+.IngImgDiv {
+    text-align: center;
+    width: auto;
+}
+
+.IngImages {
+    border: 2px solid #D1D5DB;
+    padding: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 70%;
+    position: relative;
+}
+
+.EnglishCont p {
+    font-size: 20px;
+}
+
+@media only screen and (max-width:1200px) {
+    .IngImgDiv {
+        width: 50%;
+    }
+
+    .generalDiv {
+        width: 40%;
+        position: relative;
+    }
+
+    .generalDiv p,
+    .IELTSDiv p {
+        font-size: 16px;
+    }
+
+    .IELTSDiv {
+        position: relative;
+        left: 80px;
+    }
+
+    .IngImg2 {
+        position: relative;
+        left: 100px;
+    }
+}
+
+@media only screen and (max-width:992px) {
+    .generalDiv {
+        position: relative;
+        top: 40px;
+        left: 20px;
+    }
+
+    .generalDiv h1 {
+        font-size: 22px;
+    }
+
+    .generalDiv p {
+        position: relative;
+        top: -10px;
+        font-size: 12px;
+    }
+
+    .batafsilBtn,
+    .qabul {
+        position: relative;
+        top: -20px;
+        font-size: 10px;
+        padding: 5px 20px;
+    }
+
+    .IELTSDiv {
+        position: relative;
+        top: 40px;
+        left: 50px;
+        width: 40%;
+    }
+
+    .IELTSDiv p {
+        position: relative;
+        font-size: 12px;
+    }
+
+    .ieltsbtn {
+        position: relative;
+        left: -10px;
+    }
+
+    .IngImg2 {
+        position: relative;
+        left: 80px;
+    }
+}
+
+@media only screen and (max-width:767.5px) {
+    .IngImgDiv {
+        margin: 50px auto;
+        width: 80%;
+    }
+
+    .IngImages {
+        width: 100%;
+    }
+
+    .generalDiv {
+        position: relative;
+        top: -20px;
+        left: 95px;
+        width: 70% !important;
+    }
+
+    .IELTSDiv {
+        width: 70% !important;
+    }
+
+    .IngImg2 {
+        position: relative;
+        left: 0;
+    }
+
+    .generalDiv h1,
+    .IELTSDiv h1 {
+        font-size: 28px;
+    }
+
+    .generalDiv p,
+    .IELTSDiv p {
+        font-size: 16px;
+    }
+
+    .batafsilBtn,
+    .qabul {
+        padding: 8px 35px;
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width:576.5px) {
+    .EnglishCont {
+        width: 90% !important;
+    }
+
+    .generalDiv {
+        position: relative;
+        left: 80px;
+    }
+
+    .batafsilBtn,
+    .qabul {
+        padding: 5px 25px;
+    }
+
+    .qabul {
+        position: relative;
+        left: -2px;
+    }
+}
+
+@media only screen and (max-width:400px) {
+    .generalDiv {
+        position: relative;
+        left: 60px;
+    }
+
+    .batafsilBtn,
+    .qabul {
+        font-size: 12px;
+    }
+}
+
+
+
+/* foundation */
+.Foundation {
+    width: 85%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.foundationRow {
+    margin-top: 50px;
+}
+
+.Foundation .border {
+    height: 580px;
+}
+
+.foundationDiv {
+    margin: 50px;
+    width: 35%;
+}
+
+.foundationDiv p {
+    font-weight: 500;
+    line-height: 45px;
+}
+
+.foundationDiv button {
+    font-weight: 500;
+    margin-top: 50px;
+}
+
+.foundationImg {
+    text-align: center;
+    width: 60%;
+    padding: 10px;
+    position: relative;
+    top: 90px;
+}
+
+.foundationImg2 {
+    position: relative;
+    bottom: 45%;
+    left: 8%;
+    opacity: 0.1;
+    width: 60%;
+}
+
+.IconRow {
+    margin: 0 auto;
+    width: 90%;
+}
+
+.IconRow span {
+    position: relative;
+    top: 8px;
+    left: 15px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-size: 40px;
+    line-height: 48px;
+    color: #233249;
+}
+
+.KursRow hr {
+    width: 85%;
+}
+
+@media only screen and (max-width:1200px) {
+    .foundationImg2 {
+        bottom: 38%;
+    }
+
+    .KursRow h4 {
+        font-size: 18px;
+    }
+
+    .KursRow p {
+        font-size: 14px;
+    }
+
+    .KursRow hr {
+        width: 100%;
+    }
+
+}
+
+@media only screen and (max-width:1240px) {
+    .IconRow .iconsFoun {
+        height: 30px;
+        width: 30px;
+    }
+
+    .IconRow span {
+        top: 3px;
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width:1100px) {
+    .foundationDiv {
+        width: 38%;
+    }
+
+    .foundationImg2 {
+        bottom: 30%;
+    }
+}
+
+@media only screen and (max-width:992px) {
+    .Foundation .border {
+        height: 100%;
+    }
+
+    .foundationImg {
+        width: 100%;
+        left: 40%;
+    }
+
+    .foundationImg2 {
+        left: 50%;
+        bottom: 45%;
+        width: 100%;
+    }
+
+    .foundationDiv {
+        width: 80%;
+    }
+
+    .imgDiv {
+        width: 60%;
+    }
+
+    .KursRow .col-md-4 {
+        width: 50%;
+    }
+
+}
+
+@media only screen and (max-width:600px) {
+    .foundationDiv h1 {
+        font-size: 22px;
+    }
+
+    .foundationDiv p {
+        font-size: 14px;
+    }
+
+    .foundationImg2 {
+        bottom: 38%;
+    }
+
+    .KursRow .col-md-4 {
+        width: 100%;
+    }
+
+}
+
+@media only screen and (max-width:500px) {
+    .foundationImg2 {
+        bottom: 35%;
+    }
+}
+
+@media only screen and (max-width:400px) {
+    .foundationImg2 {
+        bottom: 25%;
+    }
+}
+
+/* about */
+.aboutRow {
+    margin: 100px auto;
+    width: 98%;
+}
+
+.aboutRow p {
+    width: 60%;
+}
+
+.ajoyibDiv {
+    position: relative;
+    top: -100px;
+}
+
+.natijalar {
+    position: relative;
+    top: 140px;
+    left: 40%;
+    font-size: 25px;
+    font-weight: bold;
+    width: 20%;
+}
+
+.mask {
+    position: relative;
+    top: -150px;
+    left: 150px;
+    z-index: -5;
+    width: 35%;
+    height: 200px;
+    background: rgb(227, 138, 142);
+    border-radius: 0 50% 50% 0;
+}
+
+.maskImg {
+    position: relative;
+    top: -68px;
+    width: 150px !important;
+}
+
+.star1 {
+    position: relative;
+    top: 100px;
+    left: 160px;
+}
+
+.star2 {
+    position: relative;
+    top: 40px;
+    left: 180px;
+}
+
+.yellowPlus {
+    position: relative;
+    left: 250px;
+}
+
+.bookDiv {
+    position: relative;
+    top: -180px;
+    left: 30px;
+    width: 30%;
+    height: 25%;
+    z-index: 6;
+    background: rgb(255, 219, 89);
+}
+
+.bookImg {
+    position: relative;
+    top: -40px;
+    left: 50px;
+    width: 100%;
+}
+
+.bookDiv h4 {
+    position: relative;
+    top: 20px;
+    left: 30px;
+    line-height: 30px;
+    width: 20%;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.bookDiv p {
+    position: relative;
+    top: 20px;
+    left: 32px;
+    opacity: 0.5;
+    font-size: 12px;
+}
+
+@media only screen and (max-width:1400px) {
+    .mask {
+        left: 120px;
+    }
+
+    .star1 {
+        left: 130px;
+    }
+
+    .star2 {
+        left: 150px;
+    }
+
+    .bookDiv {
+        top: -180px;
+        width: 35%;
+    }
+
+    .bookImg {
+        top: -43px;
+        left: 40px;
+    }
+
+    .aboutRow p {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width:1200px) {
+    .aboutRow p {
+        font-size: 13px;
+    }
+
+    .mask {
+        width: 45%;
+        left: 50px;
+    }
+
+    .star1 {
+        left: 150px;
+    }
+
+    .star2 {
+        left: 160px;
+    }
+
+    .bookImg {
+        top: -37px;
+        left: 30px;
+    }
+
+    .bookDiv {
+        width: 40%;
+        top: -180px;
+        left: -50px;
+    }
+}
+
+@media only screen and (max-width:992px) {
+    .aboutRow .col-md-6 {
+        width: 100%;
+    }
+
+    .ajoyibImgDiv {
+        position: relative;
+        top: 30px;
+    }
+
+    .mask {
+        width: 35%;
+        left: 150px;
+    }
+
+    .bookDiv {
+        width: 30%;
+        left: 40px;
+    }
+
+    .bookImg {
+        top: -48px;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .mask {
+        left: 100px;
+    }
+
+    .star1 {
+        left: 120px;
+    }
+
+    .star2 {
+        left: 130px;
+    }
+
+    .yellowPlus {
+        width: 40px;
+        left: 200px;
+    }
+
+    .bookDiv {
+        left: 20px;
+    }
+
+    .bookImg {
+        top: -25px;
+    }
+}
+
+@media only screen and (max-width:470px) {
+    .mask {
+        top: -166px;
+        width: 30%;
+        height: 18%;
+        left: 100px;
+    }
+
+    .star1 {
+        left: 85px;
+        top: 55px;
+        width: 15%;
+    }
+
+    .star2 {
+        top: 10px;
+        width: 25%;
+        left: 97px;
+    }
+
+    .yellowPlus {
+        width: 25px;
+        left: 140px;
+        top: -35px;
+    }
+
+    .circle {
+        width: 30%;
+    }
+
+    .maskImg {
+        position: relative;
+        top: -110px;
+        width: 100px !important;
+    }
+
+    .natijalar {
+        top: 120px;
+        text-align: center;
+        font-size: 13px;
+        position: relative;
+        left: 180px;
+        width: 13%;
+    }
+
+    .bookDiv {
+        width: 30%;
+        height: 20%;
+    }
+
+    .bookDiv h4 {
+        font-size: 10px;
+        line-height: 15px;
+    }
+
+    .bookDiv p {
+        font-size: 8px;
+    }
+
+    .bookImg {
+        top: -15px;
+    }
+}
+
+@media only screen and (max-width:400px) {
+    .mask {
+        top: -166px;
+        width: 30%;
+        height: 18%;
+        left: 100px;
+    }
+
+    .star1 {
+        left: 65px;
+        top: 35px;
+        width: 15%;
+    }
+
+    .star2 {
+        top: -8px;
+        width: 20%;
+        left: 80px;
+    }
+
+    .yellowPlus {
+        width: 20px;
+        left: 120px;
+        top: -35px;
+    }
+
+    .circle {
+        width: 30%;
+    }
+
+    .maskImg {
+        position: relative;
+        top: -102px;
+        width: 90px !important;
+    }
+
+    .natijalar {
+        top: 120px;
+        text-align: center;
+        font-size: 13px;
+        position: relative;
+        left: 145px;
+        width: 15%;
+    }
+
+    .bookDiv {
+        left: 50px;
+        width: 30%;
+        height: 20%;
+    }
+
+    .bookDiv h4 {
+        font-size: 10px;
+        line-height: 15px;
+    }
+
+    .bookDiv p {
+        font-size: 8px;
+    }
+
+    .bookImg {
+        top: -9px;
+    }
+}
+
+.jamoaRow div {
+    border-right: 1px solid #D1D5DB;
+    margin-bottom: 50px;
+}
+
+.jamoa {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.jamoaIsm {
+    margin-top: 20px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: bold;
+}
+
+.jamoaRow button {
+    border-radius: 50px;
+    background: white;
+    padding: 5px 20px;
+    border: 2px solid #E79215;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+@media only screen and (max-width:1400px) {
+    .jamoaIsm {
+        font-size: 20px;
+    }
+
+    .jamoaRow img {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width:1200px) {
+    .jamoaIsm {
+        font-size: 18px;
+    }
+
+    .jamoaRow button {
+        font-size: 12px;
+        padding: 5px;
+    }
+}
+
+@media only screen and (max-width:992px) {
+    .jamoaIsm {
+        font-size: 13px;
+    }
+
+    .jamoaRow button {
+        font-size: 10px;
+        padding: 3px;
+    }
+
+    .jamoaRow p {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .jamoaIsm {
+        font-size: 20px;
+    }
+
+    .jamoaRow button {
+        font-size: 10px;
+        padding: 5px;
+    }
+
+    .jamoaRow p {
+        font-size: 12px;
+    }
+}
+
+.blogRow {
+    margin-top: 20px;
+}
+
+.blogRow .col-md-6:first-child,
+.borderMini {
+    border: 2px solid #E79215;
+}
+
+.blogRow .col-md-6:first-child {
+    height: 93.4%
+}
+
+.borderMini {
+    position: relative;
+    left: 30px;
+}
+
+.blogImg1 {
+    width: 100%;
+    padding: 30px;
+}
+
+.info {
+    position: relative;
+    left: 50px;
+}
+
+@media only screen and (max-width:1400px) {
+    .info2 {
+        position: relative;
+        left: 20px !important;
+    }
+}
+
+@media only screen and (max-width:1200px) {
+
+    .borderMini .col-md-8 {
+        position: relative;
+        left: 50px;
+    }
+
+    .borderMini h3 {
+        font-size: 20px;
+    }
+
+    .blogRow .icon {
+        height: 12px;
+        width: 12px;
+    }
+
+    .blogImg1 {
+        padding: 10px;
+    }
+
+    .blogRow .col-md-6:first-child {
+        height: 91.5% !important;
+    }
+
+    .blogImg {
+        padding: 0px;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:992px) {
+    .blogRow .col-md-6:first-child {
+        height: 45% !important;
+        text-align: center;
+    }
+
+    .info {
+        position: relative;
+        left: 80px;
+        top: 30px;
+        text-align: start !important;
+    }
+
+    .info p:last-child {
+        position: relative;
+        left: 5px;
+    }
+
+    .blogImg1 {
+        width: 80%;
+    }
+
+    .borderMini {
+        position: relative;
+        left: 0;
+        margin-top: 50px;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .blogRow .col-md-6:first-child {
+        height: 40% !important;
+        text-align: center;
+    }
+
+    .info {
+        position: relative;
+        left: 50px;
+        top: 30px;
+        text-align: start !important;
+    }
+
+    .info p:last-child {
+        position: relative;
+        left: 5px;
+        width: 74% !important;
+    }
+
+    .borderMini .blogImg {
+        width: 80%;
+    }
+
+    .borderMini .info2 {
+        position: relative;
+        left: -40px !important;
+    }
+
+    .info2 h3 {
+        font-size: 19px;
+    }
+
+    .info2 p {
+        font-size: 14px;
+    }
+
+    .info2 span {
+        position: relative;
+        left: 25px;
+        top: 5px;
+    }
+
+    .info2 .icon {
+        position: relative;
+        top: 20px;
+        left: -130px;
+    }
+}
+
+@media only screen and (max-width:575.5px) {
+    .info p:last-child {
+        width: 65% !important;
+    }
+
+    .blogRow .col-md-6:first-child {
+        height: 30% !important;
+    }
+
+    .borderMini .blogImg {
+        width: 80%;
+    }
+
+    .borderMini {
+        text-align: center !important;
+    }
+
+    .lala {
+        margin-bottom: 250px !important;
+
+    }
+
+    .info2 h3 {
+        position: relative;
+        left: 50px !important;
+    }
+
+    .info2 p {
+        position: relative;
+        left: 150px !important;
+        width: 60% !important;
+    }
+
+    .info2 span {
+        top: 0;
+        left: 5px;
+    }
+
+    .info2 .icon {
+        top: 0;
+        left: 0;
+    }
+}
+
+/* contact */
+.contactCont .iconRow {
+    margin: 0px;
+    width: 90%;
+}
+
+.contactCont button {
+    background-color: white;
+    padding: 8px 25px;
+    border: 1px solid #D1D5DB;
+}
+
+.boglanish {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+
+.locationDiv img {
+    position: relative;
+    width: 90%;
+    left: 60px;
+    border: 1px solid #D1D5DB;
+    padding: 10px;
+}
+
+.locIcon {
+    position: relative;
+    left: 420px;
+    top: -10px;
+    z-index: 45;
+}
+
+.locationIcon {
+    position: relative;
+    left: 5px;
+}
+
+@media only screen and (max-width:1400px) {
+    .contactCont button .iconBtn {
+        padding: 0;
+        width: 18px;
+        height: 18px;
+    }
+
+    .contactCont button {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+
+    .contactCont .border .miniIcons {
+        width: 18px;
+        height: 18px;
+    }
+
+    .locIcon {
+        position: relative;
+        left: 380px;
+        top: -10px;
+    }
+}
+
+@media only screen and (max-width:1200px) {
+    .locationDiv img {
+        position: relative;
+        left: 43px;
+        width: 88%;
+    }
+
+    .locIcon {
+        position: relative;
+        left: 315px;
+        top: -10px;
+    }
+}
+
+@media only screen and (max-width:992px) {
+    .contactCont .iconRow .col-md-4 {
+        width: 50% !important;
+    }
+
+    .contactCont button {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    .contactCont .border span {
+        font-size: 15px;
+    }
+
+    .aloqaImg {
+        width: 80% !important;
+    }
+
+    .locationDiv {
+        position: relative;
+        left: -30px !important;
+    }
+
+    .locationDiv img {
+        position: relative;
+        width: 100%;
+        top: -50px;
+    }
+
+    .locIcon {
+        position: relative;
+        left: 205px;
+        top: 115px;
+        width: 10%;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .aloqaImg {
+        margin-bottom: 50px;
+    }
+
+    .locationDiv {
+        left: -40px !important;
+    }
+
+    .locIcon {
+        position: relative;
+        left: 165px;
+        top: 85px;
+        width: 10%;
+    }
+}
+
+@media only screen and (max-width:575.5px) {
+    .contactCont .col-md-6:last-child {
+        margin: 0 auto;
+        width: 80%;
+    }
+
+    .contactCont .iconRow .col-md-4 {
+        width: 100% !important;
+    }
+}
+
+@media only screen and (max-width:470px) {
+
+    .locIcon {
+        position: relative;
+        left: 145px;
+        top: 70px;
+        width: 10%;
     }
 }

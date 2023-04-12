@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import teacherImg from "./../Images/teacher.png"
 import caruselImg from "./../Images/rightImg.png"
@@ -9,6 +9,7 @@ import img4 from "./../Images/img4.png"
 import img5 from "./../Images/img5.png"
 
 export default function Yonalishlar() {
+
     return (
         <div className="container">
             <div className="row mt-5 w-100 myCarusel">
@@ -16,7 +17,7 @@ export default function Yonalishlar() {
                     <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel">
                         <div className="carousel-indicators caruselUl">
                             <ul>
-                                <button className='batafsil'>Batafsil</button>
+                                <Link to="/error"><button className='batafsil'>Batafsil</button></Link>
                                 <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></li>
                                 <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></li>
                                 <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></li>
@@ -59,7 +60,7 @@ export default function Yonalishlar() {
                         <div className="card">
                             <h3>Ingliz tili</h3>
                             <p>More than 12 courses</p>
-                            <a href="/" className="m-2">view</a>
+                            <a href="/english" className="m-2">view</a>
                         </div>
                     </div>
                     <div className="col-md-4 col-sm-12">
@@ -97,7 +98,7 @@ export default function Yonalishlar() {
                         </svg>
                         <Link to="/error">Extra lessons</Link>
                     </p>
-                    <button className="batafsil btf2">Batafsil</button>
+                    <Link to="/error"><button className="batafsil btf2">Batafsil</button></Link>
                 </div>
                 <div className="col-md-3 col-sm-12 colmd3">
                     <p>
