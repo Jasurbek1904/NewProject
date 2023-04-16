@@ -1,6 +1,5 @@
 * {
     margin: 0;
-    cursor: pointer;
     padding: 0;
     box-sizing: border-box;
 }
@@ -82,9 +81,25 @@
     border-radius: 5px;
 }
 
+.applyBtn:hover {
+    background: white;
+    color: #000000 !important;
+    border: 1px solid #E79215;
+
+}
+
+button {
+    transition: padding 1s;
+}
+
+button:hover {
+    padding: 10px 55px;
+    transition-timing-function: linear 5s;
+}
+
 @media only screen and (min-width: 992px) {
     .mynavbrand {
-        width: 45% !important;
+        width: 40% !important;
     }
 
     .rightTopbgc {
@@ -95,7 +110,7 @@
 
 @media only screen and (min-width: 1200px) {
     .mynavbrand {
-        width: 58% !important;
+        width: 50% !important;
     }
 
     .rightTopbgc {
@@ -104,23 +119,30 @@
 
 }
 
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 991.5px) {
+    .leftbgc {
+        width: 25%;
+        top: -18%;
+    }
+
     .rightTopbgc {
         position: absolute;
         top: -55px !important;
     }
 }
 
-@media only screen and (max-width: 700px) {
-    .leftbgc {
-        position: absolute;
-        top: -30px;
+@media only screen and (max-width: 913px) {
+    .rightbgc {
+        top: -30%;
     }
+}
 
+@media only screen and (max-width: 700px) {
     .rightTopbgc {
         position: absolute;
         top: -85px !important;
     }
+
 }
 
 @media only screen and (max-width: 600px) {
@@ -133,26 +155,21 @@
         top: -100px !important;
         width: 90%;
     }
-}
 
-@media only screen and (max-width: 580px) {
     .rightbgc {
-        position: absolute;
-        top: -50px;
-        width: 65%;
+        width: 70%;
+        top: -280px;
     }
 }
 
 @media only screen and (max-width: 400px) {
+    .rightbgc {
+        top: -250px;
+    }
+
     .rightTopbgc {
         position: absolute;
         top: -100px !important;
-    }
-
-    .rightbgc {
-        position: absolute;
-        top: -70px;
-        width: 70%;
     }
 
     .infIcon {
@@ -284,7 +301,8 @@
     }
 
     .caruselImg {
-        width: 130% !important;
+        position: relative;
+        width: 120% !important;
         height: 100% !important;
     }
 
@@ -298,29 +316,31 @@
     }
 }
 
-@media only screen and (max-width:768px) {
+@media only screen and (max-width:767.5px) {
+    .myCarusel {
+        text-align: center !important;
+    }
+
     .myCarusel .col-md-8 .carousel-item {
         font-size: 30px;
         text-align: center !important;
         justify-content: center;
+        left: 20px;
     }
 
     .caruselUl {
         position: relative;
-        left: 90px;
-        top: 170px;
+        left: 80px;
+        top: 180px;
+    }
+
+    .myCarusel .col-md-4 {
+        position: relative;
+        align-items: center;
     }
 
     .caruselImg {
-        width: 60% !important;
-        margin: 0 auto !important;
-        justify-content: center;
-        justify-self: center;
-    }
-
-    .myCarusel .col-md-4 .caruselImg {
-        position: relative;
-        left: 120px !important;
+        width: 80% !important;
     }
 }
 
@@ -354,7 +374,7 @@
 
     .myCarusel .col-md-4 .caruselImg {
         position: relative;
-        left: 90px !important;
+        left: 30px !important;
     }
 }
 
@@ -379,9 +399,21 @@
     margin-bottom: 50px;
 }
 
+.yonalishlar .col-md-4 {
+    transform-style: inherit;
+    transition-timing-function: linear;
+    transition: width 2s, height 2s;
+}
+
+.yonalishlar .col-md-4:hover {
+    width: 400px;
+    height: 300px;
+}
+
 .yonalishlar .card:hover {
     color: white !important;
     background-color: #E79215;
+
 }
 
 .yonalishlar .card:hover a {
@@ -614,7 +646,8 @@
 .overlay {
     position: relative;
     bottom: 100px;
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 43.17%, #000000 103.74%);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 40%, #000000 100%);
+    border-radius: 10px;
     width: 100%;
     transition: .5s ease;
     opacity: 0;
@@ -831,25 +864,18 @@
 
 .footer {
     background-color: rgb(254, 248, 241);
-    cursor: pointer;
-    /* background-image: url(./Images/footerImg.png);
-    background-repeat: no-repeat;
-    width: auto; */
+    cursor: auto;
 }
 
-@media screen and (max-width:500px) {
-    .footer {
-        position: relative;
-        top: 900px;
-    }
-}
 
 .footer .container:first-child {
     padding: 80px;
 }
 
 .footer .container:last-child {
-    padding: 30px;
+    padding: 10px;
+    position: relative;
+    bottom: 50px;
 }
 
 .fanlar a {
@@ -873,10 +899,72 @@
     color: black;
 }
 
+.footer a:hover {
+    color: blue;
+    cursor: auto;
+}
+
+.fanlarRow {
+    margin-top: -350px !important;
+}
+
+.footerImg {
+    position: relative;
+    bottom: -80px;
+    width: 80%;
+    left: -190px;
+    z-index: 10;
+    opacity: 0.1;
+}
+
+.footer hr {
+    position: relative;
+    top: -56px;
+}
+
+@media only screen and (max-width:1200px) {
+    .footer h3 {
+        font-size: 22px;
+    }
+
+    .footer a {
+        font-size: 18px;
+    }
+
+    .footerImg {
+        width: 100%;
+        top: 230px;
+        left: -270px;
+    }
+
+    .fanlarRow {
+        margin-top: -200px !important;
+    }
+
+    .footer .container:last-child div:first-child {
+        position: relative;
+        top: -20px;
+    }
+}
 
 @media only screen and (max-width:992.5px) {
     .footer .container:first-child .col-md-8 {
         width: 100%;
+    }
+
+    .footer .container:last-child {
+        padding: 1px;
+    }
+
+    .fanlarRow {
+        position: relative;
+        top: 0px !important;
+    }
+
+    .footerImg {
+        left: -180px;
+        width: 100%;
+        top: 400px;
     }
 
     .iconSide {
@@ -888,24 +976,28 @@
 }
 
 @media only screen and (max-width:767px) {
-    /* .footer {
-        margin-top: -200px;
-    } */
-
-    .footer .container:first-child .col-md-8 .col-md-4 {
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
-
     .call {
         position: relative;
         right: 0px !important;
     }
+
+    .footerImg {
+        left: -150px;
+        top: 800px;
+    }
 }
 
-@media only screen and (max-width:500px) {
+@media only screen and (max-width:576.5px) {
     .footer {
-        margin-top: -650px;
+        position: relative;
+        bottom: 750px;
+    }
+}
+
+
+@media only screen and (max-width:500px) {
+    .footer .fanlar {
+        margin-top: 50px;
     }
 
     .footer .container:last-child {
@@ -924,6 +1016,12 @@
         position: relative;
         top: -30px !important;
         left: 30px !important;
+    }
+
+    .footerImg {
+        left: -80px;
+        width: 120%;
+        top: 900px;
     }
 }
 

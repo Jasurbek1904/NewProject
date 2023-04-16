@@ -1,14 +1,17 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import footerImg from "../Images/footerImg.png"
+
 
 export default function MyFooter() {
     return (
         <div className="footer">
             <div className="container">
-                <div className="row">
+                <img src={footerImg} alt="" className="footerImg" />
+                <div className="row fanlarRow">
                     <div className="col-md-8 col-m-12">
                         <div className="row fanlar">
-                            <div className="col-md-4">
+                            <div className="col-md-4 mb-5">
                                 <h3>Dasturlash</h3>
                                 <p><Link to="/foundation"> Frontend</Link></p>
                                 <p><Link to="/foundation"> Backend</Link></p>
@@ -16,14 +19,14 @@ export default function MyFooter() {
                                 <p><Link to="/foundation"> Ux & Ui design</Link></p>
                                 <p><Link to="/foundation"> Web design</Link></p>
                             </div>
-                            <div className="col-md-4">
+                            <div className="col-md-4 mb-5">
                                 <h3>Ingliz tili</h3>
                                 <p><Link to="/english"> English for kids</Link></p>
                                 <p><Link to="/english"> General English</Link></p>
                                 <p><Link to="/english"> English for IT</Link></p>
                                 <p><Link to="/english"> IELTS</Link></p>
                             </div>
-                            <div className="col-md-4">
+                            <div className="col-md-4 mb-5">
                                 <h3>Matematika</h3>
                                 <p><Link to="/error"> Mental arifmetika</Link></p>
                                 <p><Link to="/error"> Maths for kids</Link></p>

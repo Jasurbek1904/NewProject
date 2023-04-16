@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import teacherImg from "./../Images/teacher.png"
 import caruselImg from "./../Images/rightImg.png"
@@ -129,7 +129,7 @@ export default function Yonalishlar() {
             {/* Bizning galereya */}
 
             <p className="paragraf">Bizning galereya</p>
-            <div className="row mb-5 galereyaRow">
+            <div className="row galereyaRow">
                 <div className="col-md-8 col-sm-12 img1Div">
                     <img src={img1} alt="" className="img1" />
                     <div className="overlay">Reference site about Lorem Ipsum, giving information on its origins, as well as a random Lipsum generator.</div>
