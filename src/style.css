@@ -1671,7 +1671,7 @@ button:hover {
     width: 60%;
     padding: 10px;
     position: relative;
-    top: 90px;
+    top: -30px;
 }
 
 .foundationImg2 {
@@ -1703,6 +1703,9 @@ button:hover {
 }
 
 @media only screen and (max-width:1200px) {
+    .foundationImg{
+        width: 70% !important;
+    }
     .foundationImg2 {
         bottom: 38%;
     }
@@ -1749,8 +1752,7 @@ button:hover {
     }
 
     .foundationImg {
-        width: 100%;
-        left: 40%;
+        width: 90% !important;
     }
 
     .foundationImg2 {
@@ -1827,7 +1829,6 @@ button:hover {
     font-weight: bold;
     width: 20%;
 }
-
 .mask {
     position: relative;
     top: -150px;

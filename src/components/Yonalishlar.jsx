@@ -67,7 +67,7 @@ export default function Yonalishlar() {
                         <div className="card">
                             <h3>Matematika</h3>
                             <p>More than 12 courses</p>
-                            <a href="/" className="m-2">view</a>
+                            <a href="/error" className="m-2">view</a>
                         </div>
                     </div>
                 </div>
