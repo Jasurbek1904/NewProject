@@ -20,8 +20,8 @@ function App() {
 
     return (
         <Router>
-            {/* <MyNavbar /> */}
-            <NewNavbar />
+            <MyNavbar />
+            {/* <NewNavbar /> */}
             <Routes>
                 <Route path="/" element={<Yonalishlar />} />
                 <Route path="/dasturlash" element={<Dasturlash />} />
