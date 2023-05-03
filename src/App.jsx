@@ -13,13 +13,15 @@ import English from "./components/English";
 import Foundation from "./components/Foundation";
 import About from "./components/About";
 import Contact from "./components/Contact";
+import NewNavbar from "./components/NewNavbar";
 
 
 function App() {
 
     return (
         <Router>
-            <MyNavbar />
+            {/* <MyNavbar /> */}
+            <NewNavbar />
             <Routes>
                 <Route path="/" element={<Yonalishlar />} />
                 <Route path="/dasturlash" element={<Dasturlash />} />
